@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #F37321;
+    --second-color: #1E3056;
+    --third-color: #FDE3D3;
+    --white: #ffffff;
+    --orange: #FC8441;
+    --light-orange: #FFF3EC;
+    --grey: #B2B2B2;
+    --navy: #253A5A;
+}
+.page-content .elementor a {
+    text-decoration: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DIN Alternate", Sans-serif;
+    font-weight: 700;
+}
+form label {
+    color: var(--second-color);
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+}
+input[type=text], input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=url], select {
+    height: 48px;
+    border-radius: 0;
+    outline: 0;
+    border: 0;
+}
+form textarea {
+    height: 94px;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+}
+form input[type="submit"] {
+    border: none;
+    outline: none;
+}
+.wpcf7-form p {
+    margin: 0;
+}
+.field-item.submit {
+    margin-top: 15px;
+}
